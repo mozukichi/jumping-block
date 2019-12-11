@@ -90,7 +90,7 @@ withLatestFrom(tick, combineLatest(canvas, blocks)).sync(
     ctx.fillStyle = "blue"
     ctx.strokeStyle = "white"
     blocks.forEach(block => {
-      ctx.fillStyle = "lightblue"
+      ctx.fillStyle = "steelblue"
       ctx.fillRect(block.x, 0, block.width, SCREEN_HEIGHT)
       ctx.fillStyle = "blue"
       ctx.fillRect(block.x, block.y, block.width, block.height)
